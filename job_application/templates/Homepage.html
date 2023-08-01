@@ -1,0 +1,204 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recruitment Startup</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f7f7f7;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+}
+
+.logo {
+    height: 40px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.hero {
+    background-image: url('https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg?cs=srgb&dl=pexels-johannes-plenio-1103970.jpg&fm=jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.job-search {
+    background-color: #f7f7f7;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.job-search h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.job-search form {
+    display: flex;
+    justify-content: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.job-search input[type="text"] {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 50%;
+}
+
+.job-search button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.featured-jobs {
+    padding: 40px 0;
+}
+
+.featured-jobs h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+</style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="https://cdn5.vectorstock.com/i/1000x1000/69/24/recruitment-logo-vector-31826924.jpg" alt="Recruitment Startup Logo" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="/Homepage">Home</a></li>
+                    <li><a href="#">Jobs</a></li>
+                    <li><a href="/about">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </nav>
+            <a href="/admin" class="btn">Sign In / Register</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>Welcome to Recruitment Startup</h1>
+                <p>Find your dream job or hire top talents in the tech industry.</p>
+                <a href="/admin" class="btn">Post a Job</a>
+                <a href="/index" class="btn">Apply for Jobs</a>
+            </div>
+        </section>
+
+        <section class="job-search">
+            <div class="container">
+                <h2>Find Your Perfect Job</h2>
+                <form>
+                    <input type="text" placeholder="Job Title, Keywords, or Category">
+                    <input type="text" placeholder="Location">
+                    <button type="submit">Search</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="featured-jobs">
+            <div class="container">
+                <h2>Featured Jobs</h2>
+                <!-- Add featured job listings here -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Recruitment Startup. All rights reserved.</p>
+            <nav>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>
